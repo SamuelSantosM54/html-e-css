@@ -1,0 +1,88 @@
+h1{
+
+    text-align: center;
+    font-family: Arial,sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.bloco {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid black;
+
+
+
+}
+
+.bloco h2{
+
+font-family: Arial, sans-serif;
+color: black;
+text-align: left;
+
+}
+
+.bloco2 {
+    font-family: Arial, sans-serif;
+    background-color:rgb(96, 96, 225);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.bloco2 h2 {
+
+    font-family: Arial, sans-serif;
+    text-align: left;
+
+}
+
+
+.bloco3 {
+    font-family: Arial, sans-serif;
+
+    background-color: rgb(155,155,249);
+    padding: 20px;
+    border: 3px solid blue;
+
+}
+
+.bloco3 h2 {
+
+    font-family: Arial,sans-serif;
+    color: rgb(19,19,96);
+    text-align: left;
+
+}
+
+
+.bloco4 {
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: white;
+    padding: 20px;
+    border: 3px solid black;
+
+}
+
+
+.bloco4 h2 {
+
+    font-family: Arial,sans-serif;
+    color: black;
+    text-align: left;
+
+
+
+
+
+}
+
+
+
+
+
