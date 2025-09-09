@@ -1,0 +1,118 @@
+ p {
+  color: blue;
+}
+
+#titulo-principal {
+  background-color: yellow;
+}
+
+.subtitulo {
+  color: green;
+}
+
+li {
+  color: purple;
+}
+
+.caixa-um {
+  background-color: lightblue;
+}
+
+.caixa-dois {
+  background-color: lightcoral;
+}
+
+p, h2, h3 {
+  color: orange;
+}
+
+#texto-centralizado {
+  text-align: center;
+}
+
+#link-um {
+  color: green;
+}
+
+#link-dois {
+  color: red;
+}
+
+.compartilhado {
+  font-weight: bold;
+}
+
+img {
+  border: 2px solid black;
+}
+
+div p {
+  color: cadetblue;
+}
+
+.paragrafo-um {
+  color: #3498db; 
+}
+
+.paragrafo-dois {
+  color: #e74c3c; 
+}
+
+#titulo-fonte {
+  font-family: Arial, sans-serif;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.italico {
+  font-style: italic;
+}
+
+.sublinhado {
+  text-decoration: underline;
+}
+
+div h3 {
+  color: #2ecc71; 
+}
+
+#caixa-vermelha {
+  background-color: red;
+  height: 50px; 
+  margin: 5px;
+}
+
+#caixa-verde {
+  background-color: green;
+  height: 50px;
+  margin: 5px;
+}
+
+#caixa-azul {
+  background-color: blue;
+  height: 50px;
+  margin: 5px;
+}
+
+.destaque {
+  color: #f1c40f; 
+}
+
+
+#caixa-estilizada {
+  background-color: #bdc3c7; 
+  border: 3px dashed #2c3e50; 
+  padding: 15px; 
+}
+
+
+.sublinhado-link {
+  text-decoration: underline;
+}
+
+
+h1, p, a {
+  color: #9b59b6; 
+}
