@@ -1,0 +1,144 @@
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+
+
+
+table {
+    width: 60%; 
+    margin-bottom: 50px; 
+}
+
+th, td {
+    padding: 10px; 
+    text-align: left; 
+    border: 1px solid #2d2d2d;
+}
+
+
+.lista-compras th,
+.lista-compras td {
+    border: 1px solid black;
+}
+
+
+
+.cadastro-pessoas  {
+    background-color: #7e7d7dc2;
+    color: #ffffff;
+}
+
+
+
+.agenda-compromissos {
+    color: #0000ff; 
+}
+
+.agenda-compromissos th,
+.agenda-compromissos td {
+    border: 1px solid #9999ff;
+}
+
+
+
+
+.catalogo-produtos {
+    font-family: Arial, sans-serif;
+}
+
+
+.tabela-notas th {
+    font-size: 27px; 
+}
+
+
+.tabela-cardapio td {
+    background-color: #80bef5;
+}
+
+
+.tabela-horario td, .tabela-horario th {
+    text-align: center;
+}
+
+
+.tabela-campeonato {
+    border: 3px solid black; 
+}
+
+
+.tabela-precos th {
+    color: red; 
+}
+
+
+.tabela-filmes td, .tabela-filmes th {
+    padding: 10px; 
+}
+
+
+.tabela-frutas td:first-child {
+    font-style: italic; 
+}
+
+
+.tabela-tabuada td {
+    font-weight: bold; 
+}
+
+
+.tabela-materias thead tr {
+    background-color: #dcdcdc;
+}
+
+
+.tabela-funcionarios td {
+    color: rgb(88, 172, 3);
+}
+
+.tabela-restaurante td, .tabela-restaurante th {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 15px; 
+}
+
+
+.tabela-calendario tbody tr:nth-child(2) {
+    background-color: #f0e68c; 
+}
+
+
+.tabela-boletim thead {
+    background-color: #333;
+    color: white; 
+}
+
+
+.tabela-paises {
+    text-transform: uppercase; 
+}
+
+
+.tabela-livros th {
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+
+.tabela-final {
+    border: 3px solid #000000; 
+}
+
+.tabela-final th {
+    background-color: #2200ff; 
+    color: white; 
+    font-size: 15px; 
+    text-transform: uppercase;
+}
+
+.tabela-final td {
+    color: #000000; 
+    background-color: #0f92ce; 
+}
