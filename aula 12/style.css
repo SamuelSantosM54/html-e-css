@@ -1,0 +1,212 @@
+ /* Configurações Globais e Variáveis de Cor */
+:root {
+    --cor-primaria: #0a0a0a; /* Preto */
+    --cor-secundaria: #1f1f1f; /* Cinza escuro */
+    --cor-texto: #e0e0e0; /* Cinza claro */
+    --cor-destaque: #007bff; /* Azul */
+    --fonte-principal: 'Arial', sans-serif;
+}
+
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+/* Header e Navegação */
+.header {
+    background-color: var(--cor-secundaria);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.navbar .nav-link {
+    color: var(--cor-texto);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: var(--cor-destaque);
+}
+
+/* Estrutura Principal */
+main {
+    padding-top: 60px; /* Espaço para o header fixo */
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-dark {
+    background-color: var(--cor-secundaria);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: var(--cor-texto);
+    margin-bottom: 20px;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; border-bottom: 2px solid var(--cor-destaque); display: inline-block; padding-bottom: 5px; }
+h3 { font-size: 1.5em; color: var(--cor-destaque); }
+
+/* Seção Início */
+.inicio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--cor-destaque);
+    object-fit: cover;
+}
+
+.apresentacao {
+    max-width: 600px;
+}
+
+/* Seção Habilidades */
+.habilidades-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.habilidade-card {
+    background-color: var(--cor-primaria);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+}
+
+.habilidade-card ul {
+    list-style-type: '✓ '; /* Adiciona um marcador personalizado */
+    padding-left: 20px;
+}
+
+.habilidade-card li {
+    margin-bottom: 10px;
+}
+
+/* Seção Formação */
+.formacao-item {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.formacao-item strong {
+    color: var(--cor-destaque);
+}
+
+
+/* Seção Projetos */
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.projeto-card {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-destaque);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.projeto-card p {
+    flex-grow: 1; /* Faz a descrição ocupar o espaço disponível */
+    margin-bottom: 15px;
+}
+
+.projeto-card a {
+    background-color: var(--cor-destaque);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: center; /* Centraliza o botão */
+    transition: background-color 0.3s;
+}
+
+.projeto-card a:hover {
+    background-color: #0056b3;
+}
+
+/* Seção Contato */
+.contato-links {
+    margin-top: 20px;
+}
+
+.contato-links a {
+    color: var(--cor-texto);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 1px solid var(--cor-destaque);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contato-links a:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-primaria);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
